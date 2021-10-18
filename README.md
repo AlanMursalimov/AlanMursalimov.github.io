@@ -1,1 +1,0 @@
-# AlanMursalimov.github.io
