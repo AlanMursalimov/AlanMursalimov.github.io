@@ -1,0 +1,12 @@
+body { 
+     background:blue;
+}
+
+img {
+    margin: 5px;
+}
+
+div {
+    border: 3px solid black;
+    width: 680px;
+}
