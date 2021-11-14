@@ -1,0 +1,77 @@
+/*
+Общие стили
+*/
+
+body {
+    font: 20pt sans-serif;
+    font-weight: bold;
+    background: url(img/fon.jpg);
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*
+Таблицы
+*/
+
+table {
+   border-collapse: separate;
+   border-spacing: 20px;
+   margin: 0 auto;
+}
+
+td {
+    text-align: center;
+}
+
+/*
+Изображения
+*/
+img
+{
+    width: 300px;
+}
+img:hover
+{
+    outline: 4px solid green;
+}
+
+/* 
+Заголовки 1
+*/
+
+div {
+    background-color: rgb(94, 202, 184);
+    padding:30px;
+    margin: -20px -20px 10px;
+    outline: 2px solid red;
+    text-align: center;
+    font-size: 22pt;
+    
+}
+
+/*
+Заголовки 2
+*/
+
+body p 
+{
+    outline: 2px solid red;
+    padding: 10px;
+    background-color: chartreuse;
+}
+
+/*
+Имена животных
+*/
+
+body td a {
+    background-color:silver;
+    outline: 2px solid bLack;
+    padding: 10px;
+}

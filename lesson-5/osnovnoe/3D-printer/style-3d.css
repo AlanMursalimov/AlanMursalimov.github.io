@@ -1,0 +1,19 @@
+ div {
+     padding: 10px;
+     margin: 10px;
+     color: white;
+     text-shadow: 1px 1px 2px black, 0 0 1em red;
+     font: 14pt sans-serif;
+ }
+li:first-child{color: blue;}
+
+center h2 {
+    color: red;
+}
+li {
+    cursor: pointer;
+}
+
+img{
+    width: 500;
+}
