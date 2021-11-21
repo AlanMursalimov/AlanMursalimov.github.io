@@ -1,0 +1,49 @@
+div {
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+    border: 5px solid black;
+    background: #d9dbda;
+    margin: 0px;
+}
+
+.block1 {
+    background-color: chocolate;
+    height: 515px;
+    float: right;
+    width: 1170px;
+}
+
+.block2 {
+    background-color: cyan;
+    float: left;
+    height: 515px;
+    width: 250px;
+}
+ 
+.block3 {
+    background-color: grey;
+   margin-top: 20px;
+   width: 230px;
+   margin-left: 10px;
+   height: 30px;
+}
+
+.block4 {
+    background-color: grey;
+    margin-top: 10px;
+    width: 230px;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.block5 {
+    background-color: grey;
+    margin-top: 10px;
+    width: 230px;
+    margin-left: 10px;
+    height: 30px;
+}

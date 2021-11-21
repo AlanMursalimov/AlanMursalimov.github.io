@@ -1,0 +1,92 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background: silver;
+    padding: 0px 10px 10px;
+}
+
+.container:first-child {
+    padding-top: 10px;
+}
+
+.header {
+    background: yellow;   
+    height: 150px;
+
+}
+
+.leftHeader {
+    width: 200px;
+    float:left;
+}
+
+.rightHeader {
+    width: 200px;
+    float:right;
+}
+
+.middleHeader {
+    margin-left: 210px;
+    margin-right: 210px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.phone {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: lime;
+}
+
+.topHeader {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    color: wheat;
+}
+
+
+
+.leftMenu {
+    width: 200px;
+    height: 100%;
+    background: rgb(255, 136, 0);
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: rgba(0, 238, 255, 0.808);
+    margin-left: 210px;
+    padding: 10px
+    
+}
+
+.articelContainer {
+    float: right;
+}
+
+.article {
+    background-color: rgb(0, 140, 255);
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+.footer {
+    background: red;
+    padding: 20px;
+    color:white;
+    text-align: center;
+}
+
+.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,48 @@
+div {
+    padding: 10px;
+}
+
+.header {
+    background-color: skyblue;
+    text-align: center;
+}
+
+.menu {
+    width: 100px;
+    background-color: springgreen;
+    float:left;
+    margin-right: 10px;
+    height: 180px;
+}
+
+.main {
+    background-color: red;
+    width: 1164px;
+    margin-left: 120px;
+    
+}
+
+.footer {
+    background-color: slateblue;
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+}
+
+ul {
+    padding: 10px;
+}
+
+.menu2 {
+    width: 100px;
+    background-color: springgreen;
+    float:right;
+    margin-left: 10px;
+    height: 180px;
+}
+
+.A{
+    width: 1150px;
+}
