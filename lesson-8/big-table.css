@@ -1,0 +1,316 @@
+div {
+    display: block;
+    border: 5px solid black;
+}
+
+.main {
+    background-color: red;
+    height: 800px;
+}
+
+.top-menu {
+    display: flex;
+    background-color: royalblue;
+    justify-content: center;
+}
+
+
+
+.item {
+    background-color:orange;
+    width: 130px;
+    height: 50px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.item2 {
+    background-color: seashell;
+    width: 130px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 5px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.item3 {
+    background-color:yellow;
+    width: 130px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 5px;
+    height: 50px;
+    text-align: center;
+}
+
+.item4 {
+    background-color: turquoise;
+    width: 130px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 5px;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+.l-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    float: left;
+    margin-top: 20px;
+    width: 200px;
+    
+}
+
+.l-item {
+    background-color: tomato;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.l-item2 {
+    background-color: violet;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.l-item3 {
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.l-item4 {
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.use {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    margin-top: 380px;
+    float: left;
+    margin-left: -210px;
+    width: 200px;
+    height: 200px;
+}
+
+
+.d-menu {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(255, 102, 0);
+    float: left;
+    margin-top: 610px;
+    margin-left: -210px;
+    width: 1350px;
+    height: 40px;
+}
+
+
+
+.name {
+    display: flex;
+    background-color: rgb(231, 231, 125);
+    float: left;
+    width: 1100px;
+    margin-top: -640px;
+    margin-left: 260px;
+    height: 30px;
+}
+
+
+.avatar {
+    display: flex;
+    background-color: cyan;
+    float: left;
+    width: 200px;
+    margin-top: -605px;
+    margin-left: 260px;
+    height: 270px;
+}
+
+.friends {
+    background-color: yellow;
+    float: left;
+    width: 200px;
+    margin-top: -280px;
+    margin-left: 260px;
+    height: 200px;
+    color: black;
+    font-size: 14px;
+}
+.friend1 {
+    display: flex;
+    background-color: darkcyan;
+    width: 70px;
+    margin-left: 10px;
+    height: 70px;
+}
+
+.friend2 {
+    display: flex;
+    background-color: darkcyan;
+    width: 70px;
+    margin-left: 10px; 
+    height: 70px;
+    margin-top: 10px;
+}
+
+.friend3 {
+    display: flex;
+    background-color: darkcyan;
+    width: 70px;
+    margin-left: 10px;
+    float: right;
+    margin-top: -170px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.friend4 {
+    display: flex;
+    background-color: darkcyan;
+    width: 70px;
+    margin-left: 10px;
+    float: right;
+    margin-top: -80px;
+    margin-left: 40px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.live {
+    display: flex;
+    flex-direction: column;
+    background-color: salmon;
+    float: left;
+    width: 860px;
+    margin-top: -590px;
+    margin-left: 480px;
+}
+
+.land {
+    background-color: crimson;
+    width: 650px;
+    margin-top: 5px;
+    margin-right: 50px;
+    height: 40px;
+}
+
+.town {
+    background-color: crimson;
+    width: 650px;
+    margin-top: 10px;
+    margin-right: 50px;
+    height: 40px;
+}
+
+.news {
+    background-color: darkgrey;
+    float: left;
+    width: 860px;
+    margin-top: -450px;
+    margin-left: 480px;
+    height: 130px;
+}
+
+.news2 {
+    background-color: dodgerblue;
+    float: left;
+    width: 860px;
+    margin-top: -280px;
+    margin-left: 480px;
+    height: 187px;
+}
+
+
+.img {
+    margin-top: 400px;
+    float: left;
+    margin-left: -205px;
+    width: 195px;
+    height: 185px;
+}
+
+
+.M1 {
+    float: left;
+    width: 199px;
+    height: 245px;
+    position: relative;
+    margin-top: 55px;
+    margin-left: -113px;
+}
+
+.pringels {
+    float: right;
+    width: 180px;
+    margin-right: 400px;
+    height: 130px;
+}
+
+.sushi {
+    float: right;
+    width: 150px;
+    height: 130px;
+}
+
+.food {
+    float: right;
+    width: 180px;
+    height: 130px;
+    margin-top: -130px;
+    margin-right: 220px;
+}
+
+.twix {
+    float: right;
+    width: 150px;
+    height: 130px;
+    margin-top: -130px;
+    margin-right: 70px;
+}
+
+.swiss {
+  float: right;
+  margin-right: 365px;
+}
+
+.sea {
+    float: right;
+  margin-right: 634px;
+  margin-top: -150px;
+  height: 150px;
+}
+
+.alps {
+    float: right;
+    margin-right: 0px;
+    margin-top: -120px;
+    height: 120px;
+    width: 365px;
+    
+}

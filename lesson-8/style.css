@@ -1,0 +1,33 @@
+.div {
+    display:flex;
+}  
+.container {
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:flex-end;
+}
+
+.text {
+    background-color: firebrick;
+    padding: 100px;
+    width: 0px;
+}
+.mine {
+    height: 500px;
+}
+
+.css {
+    height: 150px;
+}
+
+.gta {
+    height: 300px;
+}
+
+.roblox {
+    height: 301px;
+}
+
