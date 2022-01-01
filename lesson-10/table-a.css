@@ -1,0 +1,480 @@
+div {
+    display: block;
+    border: 5px solid black;
+}
+
+li {
+    border: 5px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: red;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.top-menu {
+    display: flex;
+    background-color: royalblue;
+    justify-content: center;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+@keyframes myanimation {
+    from {
+        left: 0;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+
+
+.item {
+    background-color:orange;
+    width: 130px;
+    height: 50px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.item2 {
+    background-color: seashell;
+    width: 130px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 5px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+    
+}
+
+.item3 {
+    background-color:yellow;
+    width: 130px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 5px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.item4 {
+    background-color: turquoise;
+    width: 130px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 5px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.l-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    float: left;
+    margin-top: 20px;
+    width: 200px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+    
+}
+
+.l-item {
+    background-color: tomato;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.l-item2 {
+    background-color: violet;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.l-item3 {
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+ul {
+    margin: 0;
+    padding: 5px;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: left;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.l-item3 {
+    margin: 5px;
+    transition-duration: .5s;
+    position: relative;
+}
+
+.l-item3 a {
+    display: block;
+    padding: 5px;
+}
+
+.l-item3:hover {
+    background-color: blue;
+}
+
+.l-item3:hover > a {
+    color: white;
+}
+
+.submenu {
+    position: absolute;
+    flex-direction: column;
+    display: none;
+    opacity: 0;
+}
+
+.l-item3:hover > .submenu {
+    display: flex;
+    opacity: 1;
+    transition-duration: 2s;
+    z-index: 1;
+}
+
+.submenu .l-item3:hover > .submenu {
+    left: 90px;
+    top: 15px;
+}
+
+.l-item4 {
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+
+.use {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    margin-top: 380px;
+    float: left;
+    margin-left: -210px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+
+.d-menu {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(255, 102, 0);
+    float: left;
+    margin-top: 610px;
+    margin-left: -210px;
+    width: 1350px;
+    height: 40px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+
+
+.name {
+    display: flex;
+    background-color: rgb(231, 231, 125);
+    float: left;
+    width: 1100px;
+    margin-top: -640px;
+    margin-left: 260px;
+    height: 30px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+
+.avatar {
+    display: flex;
+    background-color: cyan;
+    float: left;
+    width: 200px;
+    margin-top: -605px;
+    margin-left: 260px;
+    height: 270px;
+    border: 5px solid black;
+}
+
+.friends {
+    background-color: yellow;
+    float: left;
+    width: 200px;
+    margin-top: -280px;
+    margin-left: 260px;
+    height: 200px;
+    color: black;
+    font-size: 14px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+.friend1 {
+    display: flex;
+    background-color: darkcyan;
+    width: 70px;
+    margin-left: 10px;
+    height: 70px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.friend2 {
+    display: flex;
+    background-color: darkcyan;
+    width: 70px;
+    margin-left: 10px; 
+    height: 70px;
+    margin-top: 10px;
+    border: 5px solid black;
+}
+
+.friend3 {
+    display: flex;
+    background-color: darkcyan;
+    width: 70px;
+    margin-left: 10px;
+    float: right;
+    margin-top: -170px;
+    height: 70px;
+    margin-right: 20px;
+    border: 5px solid black;
+}
+
+.friend4 {
+    display: flex;
+    background-color: darkcyan;
+    width: 70px;
+    margin-left: 10px;
+    float: right;
+    margin-top: -80px;
+    margin-left: 40px;
+    height: 70px;
+    margin-right: 20px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.live {
+    display: flex;
+    flex-direction: column;
+    background-color: salmon;
+    float: left;
+    width: 860px;
+    margin-top: -590px;
+    margin-left: 480px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.land {
+    background-color: crimson;
+    width: 650px;
+    margin-top: 5px;
+    margin-right: 50px;
+    height: 40px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.town {
+    background-color: crimson;
+    width: 650px;
+    margin-top: 10px;
+    margin-right: 50px;
+    height: 40px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.news {
+    background-color: darkgrey;
+    float: left;
+    width: 860px;
+    margin-top: -450px;
+    margin-left: 480px;
+    height: 130px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+.news2 {
+    background-color: dodgerblue;
+    float: left;
+    width: 860px;
+    margin-top: -280px;
+    margin-left: 480px;
+    height: 187px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border: 5px solid black;
+}
+
+
+.img {
+    margin-top: 400px;
+    float: left;
+    margin-left: -205px;
+    width: 195px;
+    height: 185px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+}
+
+
+.M1 {
+    float: left;
+    width: 199px;
+    height: 245px;
+    position: relative;
+    margin-top: 55px;
+    margin-left: -113px;
+}
+
+.pringels {
+    float: right;
+    width: 180px;
+    margin-right: 400px;
+    height: 130px;
+}
+
+.sushi {
+    float: right;
+    width: 150px;
+    height: 130px;
+}
+
+.food {
+    float: right;
+    width: 180px;
+    height: 130px;
+    margin-top: -130px;
+    margin-right: 220px;
+}
+
+.twix {
+    float: right;
+    width: 150px;
+    height: 130px;
+    margin-top: -130px;
+    margin-right: 70px;
+}
+
+.swiss {
+  float: right;
+  margin-right: 365px;
+}
+
+.sea {
+    float: right;
+  margin-right: 634px;
+  margin-top: -150px;
+  height: 150px;
+}
+
+.alps {
+    float: right;
+    margin-right: 0px;
+    margin-top: -120px;
+    height: 120px;
+    width: 365px;
+    
+}
